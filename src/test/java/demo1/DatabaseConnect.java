@@ -10,7 +10,7 @@ public class DatabaseConnect {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		
-		//Connection URL Syntax : jdbc:mysql://[host]:[port]/[database]...
+		//Connection URL Syntax : jdbc:mysql://[host]:[port]/[database].....
 		String dbURL = "jdbc:mysql://localhost:3306/emp";
 		
 		//Database UserName
