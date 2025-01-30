@@ -15,7 +15,7 @@ public class PostTest {
 	
 	@Test
 	public void test1() {
-		String root_uri="https://petstore.swagger.io/v2";
+		String root_uri="https://petstore.swagger.io/v2";///sample 
 		given()
 		.contentType(ContentType.JSON)
 		.accept(ContentType.JSON)
